@@ -1,0 +1,67 @@
+<html>
+<head> <title> Formulaire2 </title>
+</head>
+<body>
+<table border="1" width="100%" cellspacing="0" cellpadding="6">
+<form action="traitement2.php" method ="post">
+
+
+    
+<tr>
+<td> 
+Civilite :     
+</td>
+<td>
+    <input type="radio" name="Bouton" value="M"> M 
+    <input type="radio" name="Bouton" value="Mme"> Mme
+</td>
+</tr>
+
+<tr>
+<td> Prenom:</td>
+<td>  
+    <input type="text" name="first_name"> 
+</td>
+</tr>
+
+
+<tr>
+<td> Nom:</td>
+<td> 
+    <input  type="text" name="Last_name"> 
+</td>
+</tr>
+
+
+<tr>
+<td> Classe :</td>
+<td> 
+    <select name="class">
+        <option>License</option>
+        <option>Master</option>
+        <option>Doctorat</option>
+      </select>
+</td>
+</tr>
+
+<tr>
+<td>commentaire</td>
+<td>
+    <textarea name="com"></textarea>
+</td>
+</tr>
+
+<tr>
+<td> 
+    <input type="reset" value="annuler"> 
+</td>
+<td>
+    <input type="submit" value="Envoyer">
+</td>
+</tr>
+
+
+</table>
+</form>
+</body>
+</html>
