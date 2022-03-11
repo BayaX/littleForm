@@ -1,0 +1,14 @@
+<?php
+$k=$_POST ['Bouton'];
+$y=$_POST ['first_name'];
+$a=$_POST ['Last_name'];
+$b=$_POST ['com'];
+$c=$_POST ['class'];
+$d=$_POST ['com'];
+echo $k ;echo  "<br>" ;
+echo $y ;echo  "<br>" ;
+echo $a ;echo  "<br>" ;
+echo $b ;echo  "<br>" ;
+echo $c ;echo  "<br>" ;
+echo $d ;echo  "<br>" ;
+?>
